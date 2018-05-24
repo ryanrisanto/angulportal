@@ -1,0 +1,337 @@
+@import "compass";
+@charset "utf-8";
+
+/* --------- */
+/* VARIABLES */
+/* --------- */
+
+$accent: #0093cf;
+
+/* ---- */
+/* BODY */
+/* ---- */
+/*
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover 	{
+	color: $accent;
+}
+*/
+a,
+a:hover 	{
+	color: $accent;
+}
+
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+
+blockquote  {
+	border-color: $accent;
+}
+
+/* ------- */
+/* BUTTONS */
+/* ------- */
+
+.button,
+input[type="submit"] 	{
+	background-color: $accent;
+}
+
+/* ---- */
+/* GMAP */
+/* ---- */
+
+.gmap .marker:before {
+	background-image: url("images/marker.png");
+}
+
+@media 
+	(-webkit-min-device-pixel-ratio: 2), 
+	(min-resolution: 192dpi) { 
+
+	.gmap .marker:before {
+		background-image: url("images/marker@2x.png");
+		background-size: 45px 39px; /* equals the size of @1x version */
+	}
+
+}
+
+/* ------- */
+/* WIDGETS */
+/* ------- */
+
+/* WIDGETS - GENERAL */
+
+.widget a:hover   {
+  color: $accent;
+}
+
+/* WIDGET - RECENT POSTS CUSTOM */
+
+.widget_recent_posts_custom .recent_post_comments_number:hover i,
+.widget_recent_posts_custom .recent_post_like_number:hover i 	{
+	color: $accent;
+}
+
+/* WIDGET - TAGS */
+
+.widget_tags .tagcloud a:hover 	{
+	background-color: $accent;
+}
+
+/* WIDGET - SOCIAL */
+
+.widget_social .social_icon:hover   {
+  background-color: $accent;
+}
+
+/* -------- */
+/* HEADER-2 */
+/* -------- */
+
+.header-2 .contact_info a:hover 	{
+	color: $accent;
+}
+
+.header-2 .flag_list .flag:hover  {
+  color: $accent;
+}
+
+/* ------------ */
+/* NAVIGATION-1 */
+/* ------------ */
+
+.navigation-1 li:hover .top-menu-item-a 	{
+	color: $accent;
+}
+
+.navigation-1 .search_top_button:hover  {
+	color: $accent;
+}
+
+/* ------------ */
+/* NAVIGATION-2 */
+/* ------------ */
+
+.navigation-2 li a:hover 	{
+	color: $accent;
+}
+
+/* ----------- */ 
+/* BLOG-POST-1 */
+/* ----------- */
+
+.blog-post-1 .post_meta a:hover 	{
+	color: $accent;
+}
+
+.blog-post-1 .post_meta_left .post_meta_left_item:hover,
+.blog-post-1 .post_meta_left .post_meta_left_item:hover i 	{
+	color: $accent;
+}
+
+/* POST TAGS */
+
+.blog-post-1 .post_tags a:hover  {
+  border-color: $accent;
+  background-color: $accent;
+}
+
+/* SHARE THIS */
+
+.blog-post-1 .share_this .share_this_links a:hover  {
+  color: $accent;
+}
+
+/* ------------ */
+/* PAGINATION-1 */
+/* ------------ */
+
+.pagination-1 .page.current,
+.pagination-1 a.page:hover 	{
+	background-color: $accent;
+}
+
+/* -------------------- */
+/* PORTFOLIO_TITLEBAR-2 */
+/* -------------------- */
+
+.portfolio_titlebar-2 .portfolio_nav a:hover 	{
+	background-color: $accent;
+}
+
+/* ---------------- */
+/* PORTFOLIO-POST-1 */
+/* ---------------- */
+
+.portfolio_like_wrapper:hover .portfolio_like_icon,
+.portfolio_like_wrapper:hover .portfolio_like_number 	{
+	color: $accent;
+}
+
+.portfolio_image_wrapper .portfolio_image_link:hover,
+.portfolio_image_wrapper .portfolio_image_zoom:hover  {
+  background-color: rgba($accent,0.89);
+}
+
+/* ------------------ */
+/* PORTFOLIO-SINGLE-1 */
+/* ------------------ */
+
+.portfolio-single-1 .post_meta .like_number:hover,
+.portfolio-single-1 .post_meta a.like_number:hover 	{
+	color: $accent;
+}
+
+.portfolio-single-1 .post_meta .like_number:hover i 	{
+	color: $accent;
+}
+
+/* -------------------- */
+/* SHORTCODES + MODULES */
+/* -------------------- */
+
+/* TEAM MEMBER */
+
+.team_member .team_member_social_icons a:hover 	{
+	color: $accent;
+}
+
+.team_member .team_member_social_links a 	{
+	color: $accent;	
+}
+
+/* TEXT WITH ICON BLOCK 1 */
+
+.text_icon_block-1:hover .tib_icon  {
+	color: $accent;
+	border-color: lighten(desaturate($accent, 50%), 20%);
+	@include box-shadow(0 0 0 2px lighten($accent, 50%));
+}
+
+/* TEXT WITH ICON BLOCK 3 */
+
+.text_icon_block-3 .tib_icon  {
+  background-color: $accent;
+}
+
+/* TEXT WITH ICON EXPAND */
+
+.text_icon_expand_item_wrapper:hover .text_icon_expand_image_wrapper   {
+  border-bottom-color: lighten(desaturate($accent, 20%), 30%);
+}
+
+.text_icon_expand_item .tie_icon  {
+  border-color: lighten(desaturate($accent, 20%), 30%); 
+}
+
+.text_icon_expand_item_wrapper:hover .tie_title 	{
+	color: $accent;
+}
+
+/* RECENT POSTS SLIDER */
+
+.recent_posts_slider .rps_like_wrapper:hover .rps_like_icon,
+.recent_posts_slider .rps_like_wrapper:hover .rps_like_number 	{
+	color: $accent;
+}
+
+.recent_posts_slider_wrapper .rps_controls a:hover 	{
+	background-color: $accent;
+}
+
+.rps_image_wrapper .rps_image_link:hover,
+.rps_image_wrapper .rps_image_zoom:hover  {
+  background-color: rgba($accent,0.89);
+}
+
+/* RECENT POSTS SLIDER-2 */
+
+.recent_posts_slider-2 .rps_like_wrapper:hover .rps_like_icon,
+.recent_posts_slider-2 .rps_like_wrapper:hover .rps_like_number 	{
+	color: $accent;
+}
+
+.recent_posts_slider-2_wrapper .rps_controls a:hover 	{
+	background-color: $accent;
+}
+
+.recent_posts_slider-2_wrapper .rps_image_wrapper .rps_image_link:hover,
+.recent_posts_slider-2_wrapper .rps_image_wrapper .rps_image_zoom:hover  {
+  background-color: rgba($accent,0.89);
+}
+
+/* CLIENT LOGO SLIDER */
+
+.client_logo_slider_wrapper .cls_controls a:hover 	{
+	background-color: $accent;	
+}
+
+/* PHOTO SLIDER 1 */
+
+.photo_slider-1 .bx-wrapper .bx-prev:hover,
+.photo_slider-1 .bx-wrapper .bx-next:hover 	{
+	background-color: $accent;
+	background-color: rgba($accent,0.89);
+}
+
+/* PROGRESS BARS 1 */
+
+.progress_bars-1 .pb_bar  {
+  background-color: $accent;
+}
+
+/* SHORTCODES - ACCORDEON-2 - OVERWRITES STYLES FROM ACCORDEON-1 */
+
+.accordeon-2 .tb_accordeon_item_active .tb_accordeon_item_post_title_wrapper  {
+  border-left-color: $accent; 
+}
+
+/* FAQ-1 */
+
+.faq-1 .faq_header_item:hover .faq_header_item_title 	{
+	color: $accent;
+}
+
+.faq-1 .divider_button_up   {
+	background-image: url("images/divider_button_up.png");
+}
+
+@media 
+	(-webkit-min-device-pixel-ratio: 2), 
+	(min-resolution: 192dpi) { 
+
+	.faq-1 .divider_button_up  {
+		background-image: url("images/divider_button_up@2x.png");
+		background-size: 83px 33px; /* equals the size of @1x version */
+	}
+}
+
+/* SITEMAP-1 */
+
+.sitemap-1 a  {
+  color: $accent;
+}
+
+/* -------------- */
+/* FOOTER-WIDGETS */
+/* -------------- */
+
+/* FOOTER WIDGET - RECENT POSTS CUSTOM */
+
+.footer-widgets .widget_recent_posts_custom .recent_post_title:hover 	{
+	color: $accent;
+}
+
+.footer-widgets .widget_recent_posts_custom .recent_post_comments_number:hover,
+.footer-widgets .widget_recent_posts_custom .recent_post_like_number:hover,
+.footer-widgets .widget_recent_posts_custom .recent_post_comments_number:hover i,
+.footer-widgets .widget_recent_posts_custom .recent_post_like_number:hover i  {
+  color: $accent;
+}

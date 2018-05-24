@@ -1,0 +1,362 @@
+/* --------- */
+/* VARIABLES */
+/* --------- */
+@media only screen and (max-width: 1200px) {
+  /* RESPONSIVE INDICATOR */
+  .jqres {
+    width: 1200px; }
+
+  /* TEXT WITH ICON EXPAND */
+  .text_icon_expand_item_wrapper {
+    height: auto;
+    margin-top: 0; }
+
+  .text_icon_expand_item {
+    position: static; }
+
+  .text_icon_expand_image_wrapper {
+    height: auto; }
+
+  .text_icon_expand_item .tie_content {
+    height: auto;
+    padding-right: 0;
+    padding-left: 0; }
+
+  .text_icon_expand_item .tie_subtitle {
+    padding-right: 0;
+    padding-left: 0; }
+
+  .text_icon_expand_item .tie_title {
+    padding-right: 0;
+    padding-left: 0; }
+
+  .text_icon_expand_item .tie_text {
+    opacity: 1; }
+
+  .text_icon_expand_item .sc_button {
+    opacity: 1;
+    margin: 0 0 20px 0; }
+
+  .text_icon_expand_item_wrapper:hover .text_icon_expand_item {
+    margin: 0; }
+
+  .text_icon_expand_item_wrapper:hover .text_icon_expand_image_wrapper {
+    height: auto; }
+
+  .text_icon_expand_item_wrapper:hover .tie_content {
+    height: auto; }
+
+  .text_icon_expand_item_wrapper:hover .text_icon_expand_item {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; } }
+@media only screen and (max-width: 990px) {
+  /* RESPONSIVE INDICATOR */
+  .jqres {
+    width: 1000px; }
+
+  /* HEADER-1 */
+  /*.header-1 [class*='col-'] 	{
+  	width: 100%;
+  }*/
+  /* NAVIGATION-1 */
+  	/*.navigation-1_wrapper 	{
+  		text-align: center;
+  	}
+  
+  	.navigation-1 	{
+  		position: static;
+  		display: inline-block;
+  		text-align: left;
+  	}
+  
+  	.navigation-1 .top-menu-item-a 	{
+  		text-align: center;
+  	}*/
+  /* CALLTOACTION-1 */
+  .cta-1 {
+    text-align: center; }
+
+  .cta-1 .left {
+    float: none; }
+
+  .cta-1 .right {
+    float: none; }
+
+  .cta-1 .cta_button {
+    margin: 20px 0 0 0;
+    display: inline-block; }
+
+  /* RECENT POSTS SLIDER */
+  .rps_image_hover {
+    display: none !important; }
+
+  /* PORTFOLIO-POST-1 */
+  .portfolio-post-1 .portfolio_image_hover {
+    display: none !important; } }
+@media only screen and (max-width: 840px) {
+  /* RESPONSIVE INDICATOR */
+  .jqres {
+    width: 840px; }
+
+  /* NAVIGATION-1 */
+  .navigation-1_container,
+  .search_top_overlay {
+    display: none !important; }
+
+  /* NAVIGATION-2 */
+  .navigation-2_container {
+    display: block !important; }
+
+  /* PRICING TABLE 1 */
+  .pricing-1 .pricing_item {
+    width: 50% !important;
+    margin: 0 -1px 20px 0; }
+
+  .pricing-1 .pricing_promoted {
+    margin: 0 -1px 20px 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.05); }
+
+  /* PORTFOLIO-SINGLE-1 */
+  .portfolio-single-1_wrapper {
+    padding-bottom: 0px; }
+
+  .portfolio-single-1 > .grid > .col-portfolio-single-left {
+    width: 100%; }
+
+  .portfolio-single-1 > .grid > .col-portfolio-single-right {
+    width: 100%; }
+
+  /* COUNTDOWN-1 */
+  #countdown .countDays,
+  #countdown .countHours,
+  #countdown .countMinutes,
+  #countdown .countSeconds {
+    display: block; }
+
+  #countdown .countDiv {
+    height: 30px;
+    display: block; }
+
+  /* SIDEBAR-1 */
+  	               /*
+  
+  	#sidebar-1_wrapper 	{
+  		border-top-width: 1px;
+  		border-top-style: solid;
+  		border-top-color: #ebebeb;
+  	}
+  
+  	.sidebar_right 	{
+  		margin-right: -($guttersb);
+  		border-right: none;
+  	}
+  
+  	.sidebar_right #sidebar-1_container 	{
+  		margin-right: 0;
+  		width: 100%;
+  	}
+  
+  	.sidebar_left 	{
+  		margin-left: -($guttersb);
+  		border-left: none;
+  	}
+  
+  	.sidebar_left #sidebar-1_container 	{
+  		margin-left: 0;
+  		width: 100%;
+  	}*/ }
+@media only screen and (max-width: 680px) {
+  /* RESPONSIVE INDICATOR */
+  .jqres {
+    width: 680px; }
+
+  /* GRID */
+  [class*='col-'] {
+    width: 100%; }
+
+  /* HEADER-2 */
+  .header-2 .contact_info {
+    width: 100%;
+    text-align: center; }
+
+  .header-2 .header_right {
+    width: 100%;
+    text-align: center; }
+
+  .header-2 .header_right.has_flags {
+    text-align: left; }
+
+  .header-2 .social_links {
+    float: none;
+    display: inline-block; }
+
+  .header-2 .social_link {
+    display: inline-block;
+    float: none; }
+
+  .header-2 .flags_wrapper {
+    border-left: none; }
+
+  /* TITLEBAR-2 */
+  .titlebar-2 .titlebar_title,
+  .titlebar-2 .titlebar_breadcrumbs {
+    float: none; }
+
+  .titlebar-2 .titlebar_title {
+    margin-bottom: 0; }
+
+  .titlebar-2 .titlebar_breadcrumbs {
+    margin-top: 0; }
+
+  /* SIDEBAR-1 */
+  .sidebar_right .col-content,
+  .sidebar_left .col-content {
+    width: 100%; }
+
+  .sidebar_right .col-sidebar,
+  .sidebar_left .col-sidebar {
+    width: 100%; }
+
+  #sidebar-1_wrapper {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ebebeb; }
+
+  /* BLOG-POST-1 */
+  .blog-post-1 > .grid > .col-blog-post-left {
+    width: 44px; }
+
+  .blog-post-1 > .grid > .col-blog-post-right > .col {
+    margin-left: 44px; }
+
+  .blog-post-1 .post_meta_left .post_meta_left_date_wrapper {
+    margin: 0 0 4px 0;
+    padding: 0 0 4px 0; }
+
+  .blog-post-1 .post_meta_left .post_meta_left_date .date_box {
+    width: 31px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 15px;
+    background-position: -50px 0; }
+
+  .blog-post-1 .post_meta_left .post_meta_left_date_wrapper .date_month {
+    width: 31px; }
+
+  /* PORTFOLIO-POST-1 */
+  .portfolio-post-1_container[class*='col-'] {
+    width: 100%; }
+
+  .portfolio_titlebar_left {
+    width: 100%; }
+
+  .portfolio_titlebar_right {
+    width: 100%;
+    float: left;
+    margin: 40px 0 0 0; }
+
+  .portfolio_sortable_count {
+    float: right; }
+
+  /* PAGINATION-1 */
+  .blog-cat-1 .pagination-1 {
+    margin-left: 58px; }
+
+  /* INFO_BLOCK */
+  .info_block .left {
+    width: auto;
+    float: none; }
+
+  .info_block .right {
+    float: none; }
+
+  /* INFO_BLOCK-2 */
+  .info_block-2 .info_button_wrapper {
+    margin: 6px 0;
+    padding: 20px 0 10px 0;
+    border-left: none; }
+
+  /* FOOTER-BOTTOM */
+  .footer-bottom_right {
+    float: left; }
+
+  .footer-bottom_right .footer_links a {
+    margin: 0 13px 0 0; } }
+@media only screen and (max-width: 480px) {
+  /* RESPONSIVE INDICATOR */
+  .jqres {
+    width: 480px; }
+
+  /* BLOG-POST-1 - SHARE THIS */
+  .blog-post-1 .share_this .share_this_title {
+    float: none; }
+
+  .blog-post-1 .share_this .share_this_links {
+    float: left;
+    padding-top: 0; }
+
+  .blog-post-1 .share_this .share_this_links a {
+    margin: 0 6px 0 0;
+    text-align: left; }
+
+  /* COMMENTS-1 */
+  .comments-1 #respond .comment-form-author_wrapper {
+    width: 100%; }
+
+  .comments-1 #respond .comment-form-author_wrapper p {
+    padding: 0 20px 0 0; }
+
+  .comments-1 #respond .comment-form-email_wrapper {
+    width: 100%; }
+
+  .comments-1 #respond .comment-form-email_wrapper p {
+    padding: 0 20px 0 0; }
+
+  /* FEATURED IMAGE */
+  .featured_image_inline,
+  .featured_image_inline.featured_image_left,
+  .featured_image_inline.featured_image_center,
+  .featured_image_inline.featured_image_right {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0; }
+
+  .featured_image_inline .featured_image {
+    width: 100%; }
+
+  /* SHORTCODE - TABS */
+  .tb_tabs h3.tb_tabs_title {
+    width: 80%;
+    border-left: 1px solid #e8e8e8; }
+
+  .tb_tabs h3.tb_tabs_title:first-child {
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0; }
+
+  .tb_tabs h3.tb_tabs_title:last-child {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #e8e8e8; }
+
+  .tb_tabs h3.tb_tabs_title_active {
+    padding-bottom: 13px; }
+
+  /* PRICING TABLE 1 */
+  .pricing-1 .pricing_item {
+    width: 100% !important; } }
+@media only screen and (max-width: 320px) {
+  /* RESPONSIVE INDICATOR */
+  .jqres {
+    width: 320px; } }

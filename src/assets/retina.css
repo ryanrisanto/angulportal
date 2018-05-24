@@ -1,0 +1,143 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header-1_container .search_top_button {
+    background-image: url(images/search_top_button@2x.png);
+    background-size: 18px 68px;
+    /* equals the size of @1x version */ }
+
+  .search_top_overlay button i {
+    background-image: url(images/search_top_overlay_button@2x.png);
+    background-size: 28px 28px;
+    /* equals the size of @1x version */ }
+
+  .navigation-2 .mobile_nav_button {
+    background-image: url(images/mobile_nav_button@2x.png);
+    background-size: 41px 41px;
+    /* equals the size of @1x version */ }
+
+  .navigation-2 .top-menu-item-has-sub-menu:before,
+  .navigation-2 .has-sub-menu:before {
+    content: "";
+    background-image: url(images/mobile_nav_sub_arrows@2x.png);
+    background-size: 12px 122px;
+    /* equals the size of @1x version */ }
+
+  .widget ul > li > a {
+    background-image: url(images/widget_arrow_right@2x.png);
+    background-size: 8px 7px;
+    /* equals the size of @1x version */ }
+
+  .bx-wrapper .bx-prev,
+  .bx-wrapper .bx-next {
+    background-image: url(images/bx_controls@2x.png);
+    background-size: 96px 63px;
+    /* equals the size of @1x version */ }
+
+  .blog-post-1 .post_meta_left .post_meta_left_date .date_box {
+    background-image: url(images/blog_date_box@2x.png);
+    background-size: 81px 44px;
+    /* equals the size of @1x version */ }
+
+  .widget_contact .address {
+    background-image: url(images/widget_contact_address@2x.png);
+    background-size: 15px 15px;
+    /* equals the size of @1x version */ }
+
+  .widget_contact .phone {
+    background-image: url(images/widget_contact_phone@2x.png);
+    background-size: 15px 15px;
+    /* equals the size of @1x version */ }
+
+  .widget_contact .email {
+    background-image: url(images/widget_contact_email@2x.png);
+    background-size: 15px 15px;
+    /* equals the size of @1x version */ }
+
+  .tb_accordeon_item_arrows {
+    background-image: url("images/tb_accordeon_arrows@2x.png");
+    background-size: 28px 40px;
+    /* equals the size of @1x version */ }
+
+  .recent_posts_slider_wrapper .rps_controls a,
+  .recent_posts_slider-2_wrapper .recent_posts_slider_wrapper .rps_controls a,
+  .client_logo_slider_wrapper .cls_controls a {
+    background-image: url("images/rps_arrows@2x.png");
+    background-size: 49px 19px;
+    /* equals the size of @1x version */ }
+
+  .recent_posts_slider_wrapper .rps_image_wrapper .rps_image_link,
+  .recent_posts_slider_wrapper .rps_image_wrapper .rps_image_zoom {
+    background-image: url("images/rps_hover@2x.png");
+    background-size: 84px 34px;
+    /* equals the size of @1x version */ }
+
+  .accordeon-2 .tb_accordeon_item_arrows {
+    background-image: url("images/tb_accordeon_2_arrows@2x.png");
+    background-size: 75px 25px;
+    /* equals the size of @1x version */ }
+
+  .accordeon-3 .tb_accordeon_item_arrows {
+    background-image: url("images/tb_accordeon_3_arrows@2x.png");
+    background-size: 65px 40px;
+    /* equals the size of @1x version */ }
+
+  .photo_slider-1 .bx-wrapper .bx-prev,
+  .photo_slider-1 .bx-wrapper .bx-next {
+    background-image: url("images/photo_slider_arrows@2x.png");
+    background-size: 100px 25px;
+    /* equals the size of @1x version */ }
+
+  .progress_bars-1 .pb_bar_bg_12 {
+    background-image: url("images/progress_bg_12@2x.png");
+    background-size: 17px 13px;
+    /* equals the size of @1x version */ }
+
+  .faq-1 .faq_header_item_icon {
+    background-image: url("images/faq_header_item_icon@2x.png");
+    background-size: 30px 37px;
+    /* equals the size of @1x version */ }
+
+  .portfolio_titlebar-2 .portfolio_nav .portfolio_prev {
+    background-image: url("images/portfolio_single_nav_prev@2x.png");
+    background-size: 27px 27px;
+    /* equals the size of @1x version */ }
+
+  .portfolio_titlebar-2 .portfolio_nav .portfolio_category {
+    background-image: url("images/portfolio_single_nav_category@2x.png");
+    background-size: 27px 27px;
+    /* equals the size of @1x version */ }
+
+  .portfolio_titlebar-2 .portfolio_nav .portfolio_next {
+    background-image: url("images/portfolio_single_nav_next@2x.png");
+    background-size: 27px 27px;
+    /* equals the size of @1x version */ }
+
+  .page404 .searchbutton {
+    background-image: url("images/search_input_icon@2x.png");
+    background-size: 33px 33px;
+    /* equals the size of @1x version */ }
+
+  .search_top_close {
+    background-image: url("images/search_top_close@2x.png");
+    background-size: 69px 19px;
+    /* equals the size of @1x version */ }
+
+  .portfolio_sortable_wrapper .sort_title {
+    background-image: url("images/sortable_portfolio_arrow@2x.png");
+    background-size: 25px 11px;
+    /* equals the size of @1x version */ }
+
+  .portfolio-post-1 .portfolio_image_wrapper .portfolio_image_link,
+  .portfolio-post-1 .portfolio_image_wrapper .portfolio_image_zoom {
+    background-image: url("images/portfolio_hover@2x.png");
+    background-size: 84px 34px;
+    /* equals the size of @1x version */ }
+
+  .tp-leftarrow.default {
+    background-image: url("images/large_left@2x.png");
+    background-size: 40px 80px;
+    /* equals the size of @1x version */ }
+
+  .tp-rightarrow.default {
+    background-image: url("images/large_right@2x.png");
+    background-size: 40px 80px;
+    /* equals the size of @1x version */ } }
